@@ -478,6 +478,7 @@ GameObject:
   - component: {fileID: 1452924888}
   - component: {fileID: 1452924889}
   - component: {fileID: 1452924890}
+  - component: {fileID: 1452924891}
   m_Layer: 0
   m_Name: Sword Slash Collider
   m_TagString: Player
@@ -493,10 +494,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452924887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.585, y: 0.063, z: 0}
-  m_LocalScale: {x: 0, y: 0.51, z: 0}
+  m_LocalPosition: {x: 0.55, y: 0.332, z: 0}
+  m_LocalScale: {x: 0, y: 0.2, z: 0}
   m_Children: []
-  m_Father: {fileID: 2056189928}
+  m_Father: {fileID: 1746998798}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1452924889
@@ -514,7 +515,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1.11
 --- !u!114 &1452924890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,6 +528,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2536a4857c434194f90f8f0e506623d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1452924891
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452924887}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 317b12673fbef554987ba7530769f88c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1746998796
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,9 +627,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1452924888}
   m_Father: {fileID: 2056189928}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1746998799
 MonoBehaviour:
@@ -677,7 +698,6 @@ Transform:
   m_LocalPosition: {x: 0.63, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1452924888}
   - {fileID: 1746998798}
   m_Father: {fileID: 0}
   m_RootOrder: 2

@@ -42,9 +42,11 @@ public class PlayerAnimations : MonoBehaviour
         }
 
         // Check if the Attack key is being pressed. If so set the swordSlice bool to true
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
+            anim.SetTrigger("swordSlice2");
 
+            /*
             if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_roll"))
             {
                 anim.SetTrigger("rollAttack");
@@ -59,10 +61,11 @@ public class PlayerAnimations : MonoBehaviour
      
             anim.SetBool("swordSlice", false);
             anim.SetBool("isRollAttacking", false);
+            */
         }
 
-        // Check if the Roll key is being pressed. If so set the isRolling bool to true
-        if (Input.GetMouseButtonDown(1))
+            // Check if the Roll key is being pressed. If so set the isRolling bool to true
+            if (Input.GetMouseButtonDown(1))
         {
             anim.SetBool("isRolling", true);
         }
