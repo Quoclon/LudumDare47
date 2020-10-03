@@ -1,0 +1,970 @@
+fileFormatVersion: 2
+guid: 7568a72a88beb5f4a886d9632c7ace8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2337852564669877973
+    second: noBKG_KnightAttack_and_Jump_0
+  - first:
+      213: 6518592654896354333
+    second: noBKG_KnightAttack_and_Jump_1
+  - first:
+      213: 7303228599385380303
+    second: noBKG_KnightAttack_and_Jump_2
+  - first:
+      213: -8284968137292988315
+    second: noBKG_KnightAttack_and_Jump_3
+  - first:
+      213: -2879968593917760683
+    second: noBKG_KnightAttack_and_Jump_4
+  - first:
+      213: -3671460169881808473
+    second: noBKG_KnightAttack_and_Jump_5
+  - first:
+      213: 8177268061699368761
+    second: noBKG_KnightAttack_and_Jump_6
+  - first:
+      213: -4203999319185287763
+    second: noBKG_KnightAttack_and_Jump_7
+  - first:
+      213: 66148870034140918
+    second: noBKG_KnightAttack_and_Jump_8
+  - first:
+      213: 4083772913604610626
+    second: noBKG_KnightAttack_and_Jump_9
+  - first:
+      213: -6083295602299760312
+    second: noBKG_KnightAttack_and_Jump_10
+  - first:
+      213: 1991302871504510958
+    second: noBKG_KnightAttack_and_Jump_11
+  - first:
+      213: 8544182384072428961
+    second: noBKG_KnightAttack_and_Jump_12
+  - first:
+      213: 1990355353550032211
+    second: noBKG_KnightAttack_and_Jump_13
+  - first:
+      213: -6405951861307541560
+    second: noBKG_KnightAttack_and_Jump_14
+  - first:
+      213: 5233485281969467713
+    second: noBKG_KnightAttack_and_Jump_15
+  - first:
+      213: 8364426890200541651
+    second: noBKG_KnightAttack_and_Jump_16
+  - first:
+      213: 520503574680196417
+    second: noBKG_KnightAttack_and_Jump_17
+  - first:
+      213: -9126831390472068264
+    second: noBKG_KnightAttack_and_Jump_18
+  - first:
+      213: 4899584348100562502
+    second: noBKG_KnightAttack_and_Jump_19
+  - first:
+      213: 3009316977571423270
+    second: noBKG_KnightAttack_and_Jump_20
+  - first:
+      213: -5235591137369905157
+    second: noBKG_KnightAttack_and_Jump_21
+  - first:
+      213: 4420788381435082806
+    second: noBKG_KnightAttack_and_Jump_22
+  - first:
+      213: 2467380796765838419
+    second: noBKG_KnightAttack_and_Jump_23
+  - first:
+      213: 2465988472808635826
+    second: noBKG_KnightAttack_and_Jump_24
+  - first:
+      213: 6163412399891635957
+    second: noBKG_KnightAttack_and_Jump_25
+  - first:
+      213: 3939405533423744907
+    second: noBKG_KnightAttack_and_Jump_26
+  - first:
+      213: -4268584473576306573
+    second: noBKG_KnightAttack_and_Jump_27
+  - first:
+      213: 4727602668133615227
+    second: noBKG_KnightAttack_and_Jump_28
+  - first:
+      213: -4035314635107885849
+    second: noBKG_KnightAttack_and_Jump_29
+  - first:
+      213: 3330181770017558166
+    second: noBKG_KnightAttack_and_Jump_30
+  - first:
+      213: -2529891547365012897
+    second: noBKG_KnightAttack_and_Jump_31
+  - first:
+      213: -2535114111474304226
+    second: noBKG_KnightAttack_and_Jump_32
+  - first:
+      213: -3947364610573722536
+    second: noBKG_KnightAttack_and_Jump_33
+  - first:
+      213: -720799550155990463
+    second: noBKG_KnightAttack_and_Jump_34
+  - first:
+      213: 4552558366958412296
+    second: noBKG_KnightAttack_and_Jump_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 84
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de42666588b17020800000000000000
+      internalID: 2337852564669877973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 84
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14519e8b71b67a50800000000000000
+      internalID: 6518592654896354333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 84
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5d6db87b74a5560800000000000000
+      internalID: 7303228599385380303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 84
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560c831ff51e50d80800000000000000
+      internalID: -8284968137292988315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 84
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b204392db4808d0800000000000000
+      internalID: -2879968593917760683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 84
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1133f7d6a5c0dc0800000000000000
+      internalID: -3671460169881808473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 84
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ecb22afd7b7170800000000000000
+      internalID: 8177268061699368761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 84
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da51af794e468a5c0800000000000000
+      internalID: -4203999319185287763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 84
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6feadacfb020be000800000000000000
+      internalID: 66148870034140918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 84
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ac3c204d97ca830800000000000000
+      internalID: 4083772913604610626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 84
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8411a3161eac39ba0800000000000000
+      internalID: -6083295602299760312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 84
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefdd38496782ab10800000000000000
+      internalID: 1991302871504510958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 84
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad89cafb98039670800000000000000
+      internalID: 8544182384072428961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 84
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d852116a92f9b10800000000000000
+      internalID: 1990355353550032211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7f28ae8bc7917a0800000000000000
+      internalID: -6405951861307541560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 84
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1417601c22311a840800000000000000
+      internalID: 5233485281969467713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 84
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9e024a0f9641470800000000000000
+      internalID: 8364426890200541651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_17
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 84
+        width: 51
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14552215e33393700800000000000000
+      internalID: 520503574680196417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_18
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 84
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8532706d43bf65180800000000000000
+      internalID: -9126831390472068264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_19
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 84
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e09976102def340800000000000000
+      internalID: 4899584348100562502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 84
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62462b8d8dd33c920800000000000000
+      internalID: 3009316977571423270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 84
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf722e399917757b0800000000000000
+      internalID: -5235591137369905157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 13
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638bc9e4c9bc95d30800000000000000
+      internalID: 4420788381435082806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 13
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c19dc03c5ed3220800000000000000
+      internalID: 2467380796765838419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_24
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 13
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd77fd5373f83220800000000000000
+      internalID: 2465988472808635826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_25
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 15
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe57cb2ce6d88550800000000000000
+      internalID: 6163412399891635957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_26
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 19
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b873ee5f5749ba630800000000000000
+      internalID: 3939405533423744907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_27
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 26
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3788cb68901f2c4c0800000000000000
+      internalID: -4268584473576306573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_28
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 28
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b760b492491db9140800000000000000
+      internalID: 4727602668133615227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_29
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 27
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec957928beaff7c0800000000000000
+      internalID: -4035314635107885849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_30
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 21
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ec06ffcae273e20800000000000000
+      internalID: 3330181770017558166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_31
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 18
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a8b07aa0504ecd0800000000000000
+      internalID: -2529891547365012897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_32
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 13
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b7e70b52771dcd0800000000000000
+      internalID: -2535114111474304226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_33
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 13
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c1ecbfcc42839c0800000000000000
+      internalID: -3947364610573722536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_34
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 13
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ad0bac0a43ff5f0800000000000000
+      internalID: -720799550155990463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noBKG_KnightAttack_and_Jump_35
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 13
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802e9c9d6bfed2f30800000000000000
+      internalID: 4552558366958412296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
