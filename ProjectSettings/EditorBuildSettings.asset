@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Brodie.unity
     guid: 732cae9a81fcb65498b3e29a5faeece3
+  - enabled: 1
+    path: Assets/Scenes/Blake.unity
+    guid: 2f96f6dc66822ff409ed11522e6bbeba
   m_configObjects: {}

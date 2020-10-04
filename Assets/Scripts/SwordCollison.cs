@@ -7,8 +7,19 @@ public class SwordCollison : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        other.GetComponent<Stats>().DamageHealth(50);
-        Debug.Log("Hit: " + other.tag);
+        if(other.GetComponent<Stats>().currentlyHit == false)
+        {
+            other.GetComponent<Stats>().DamageHealth(GetComponentInParent<Stats>().dmgMax);
+            other.GetComponent<Stats>().currentlyHit = true;
+            Debug.Log("Hit: " + other.tag);
+        }
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        other.GetComponent<Stats>().currentlyHit = false;
+
     }
 
     // Start is called before the first frame update
