@@ -29,7 +29,7 @@ public class AudioManager : MonoBehaviour
             {
                 //Debug.Log(audioSourceName);
                 audioSource.Play();
-                float playTime = audioSource.clip.length;
+                //float playTime = audioSource.clip.length;
             }
         }
     }
