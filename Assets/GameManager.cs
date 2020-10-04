@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,7 +11,16 @@ public class GameManager : MonoBehaviour
     public string sceneToLoad;
     public int sceneNum;
     public int NumberOfEnemiesLeft;
-  
+
+    //Handle UI
+    public TextMeshProUGUI StartLoopText;
+    public TextMeshProUGUI BeatLoopText;
+    public TextMeshProUGUI BeatGameText;
+    public TextMeshProUGUI GameOverText;
+
+
+
+
     //Game Manager Singleton + Awake()
     static GameManager instance;
     private void Awake()
@@ -73,6 +83,7 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneNumToLoad);
         yield return new WaitForSeconds(0.5f);
+        StartLoopText.text = "LEVEL 2";
         LoadLoop();
     }
 
@@ -128,6 +139,11 @@ public class GameManager : MonoBehaviour
     void LoadTraps()
     {
         //GameObject[] arrayOfTraps = GameObject.FindGameObjectsWithTag("FireballTrap");
+    }
+
+    public void GameOver()
+    {
+        GameOverText.enabled = true;
     }
 
 
