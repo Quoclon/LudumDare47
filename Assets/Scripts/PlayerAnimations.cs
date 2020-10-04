@@ -45,8 +45,8 @@ public class PlayerAnimations : MonoBehaviour
             // Check if the Player is in an roll animation 
             if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_roll"))
             {
+                audioManager.playAudio("RollAttack");
                 // Allow the Player to do a rolling attack
-
                 anim.SetBool("canRollAttack", true);
             }
             else
@@ -74,6 +74,7 @@ public class PlayerAnimations : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             anim.SetBool("isRolling", true);
+            audioManager.playAudio("Roll");
         }
         else if (Input.GetMouseButtonUp(1))
         {
