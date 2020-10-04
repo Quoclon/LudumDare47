@@ -7,6 +7,7 @@ public class Skeleton_Controller : MonoBehaviour
 {
     Rigidbody2D rb;
     Skeleton_Anim_Controller anim_controller;
+    GameObject player;
 
     [SerializeField] private float moveTimer;
     private float moveTimerMin = 1.0f;
@@ -29,6 +30,12 @@ public class Skeleton_Controller : MonoBehaviour
     private float randMoveY;
 
     public bool attacking = false;
+    public float attackRange;
+    
+    public float aggroRange;
+    public bool chasing;
+    public Vector3 chaseDirection;
+
 
 
 
@@ -37,6 +44,10 @@ public class Skeleton_Controller : MonoBehaviour
     void Start()
     {
         anim_controller = GetComponentInChildren<Skeleton_Anim_Controller>();
+
+        player = GameObject.FindWithTag("Player");
+
+        chasing = false;
 
         //Set the move timer
         moveTimer = UnityEngine.Random.Range(moveTimerMin, moveTimerMax+1);
@@ -50,6 +61,40 @@ public class Skeleton_Controller : MonoBehaviour
         attackTimerCurrent = attackTimer;
 
         SetDirection(-1, 1);
+    }
+
+    public void CheckAggroRange()
+    {
+        if (Vector3.Distance(transform.position, player.transform.position) < aggroRange)
+        {
+            chasing = true;
+        }
+        else
+        {
+            chasing = false;
+        }
+    }
+    public void CheckAttackRange()
+    {
+        if (Vector3.Distance(transform.position, player.transform.position) < attackRange)
+        {
+            attacking = true;
+            float direction = player.transform.position.x - transform.position.x;
+            if(direction > 0)
+            {
+                direction = 1;
+            }
+            else
+            {
+                direction = -1;
+            }
+            transform.localScale = new Vector3(direction, transform.localScale.y, 0);
+        }
+        else
+        {
+            attacking = false;
+            GetComponentInChildren<Animator>().SetBool("attacking", false);
+        }
     }
 
     private void SetIdleDirection()
@@ -70,9 +115,6 @@ public class Skeleton_Controller : MonoBehaviour
             SetDirection(-1, 1);
         }
     }
-
-
-
 
     private void HandleMovement()
     {
@@ -116,19 +158,57 @@ public class Skeleton_Controller : MonoBehaviour
 
     private void HandleAttack()
     {
-        if (attackTimerCurrent <= 0)
+        GetComponentInChildren<Animator>().SetBool("attacking", true);
+
+        if (!GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Anim_Skeleton_Attack") && attacking == true)
         {
-            attacking = true;
+            GetComponentInChildren<Animator>().Play("Anim_Skeleton_Attack");
+           
         }
+        else
+        {
+            attacking = false;
+        }
+        
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        HandleMovement();
-        HandleOrientation();
-        HandleAttack();
-        anim_controller.HandleAnimation();
+        CheckAttackRange();
+        if(attacking)
+        {
+            HandleAttack();
+        }
+        else
+        {
+            HandleMovement();
+            HandleOrientation();
+            anim_controller.HandleAnimation();
+        }
+        
+
+
+
+
+
+        /*CheckAggroRange();
+        if(chasing)
+        {
+            Debug.Log("Enemy IN Range");
+            chaseDirection = player.transform.position - transform.position;
+            chaseDirection.Normalize();
+            GetComponent<Rigidbody2D>().velocity = chaseDirection;
+        }
+        else
+        {
+            Debug.Log("Enemy OUT of Range");
+            HandleMovement();
+            HandleOrientation();
+            HandleAttack();
+            anim_controller.HandleAnimation();
+        }*/
+
     }
 }
