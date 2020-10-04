@@ -16,6 +16,8 @@ public class Stats : MonoBehaviour
 
     public bool deathState;
 
+    public bool currentlyHit = false;
+
     private Color entityColor;
 
     AudioManager audioManager;
