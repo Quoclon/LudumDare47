@@ -41,12 +41,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //timer += Time.deltaTime;
-
         if (Input.GetKeyDown(KeyCode.R))
         {
             StartNextLoop();
-            //LoadLoop();
         }
     }
 
@@ -62,12 +59,8 @@ public class GameManager : MonoBehaviour
     public void StartNextLoop()
     {
         sceneNum++;
-        //Debug.Log("StartNextLoop() - SceneNum: " + sceneNum);
-        //StartCoroutine(loadScene());
         StartCoroutine(WaitToLoadScene());
-
     }
-
 
     IEnumerator WaitToLoadScene()
     {
@@ -99,7 +92,6 @@ public class GameManager : MonoBehaviour
         {
             //Check for Enemies within the Loop Object Container(i.e. Loop2)
             Rigidbody2D[] loopEnemies = loop.GetComponentsInChildren<Rigidbody2D>(true);
-            //Debug.Log("Length of Loops: " + arrayOfLoops.Length + " Current Loop: " + loop.name + " Num of Enemies in Loop: " + loopEnemies.Length);
 
             //If 'loop' Level is less than the current loop 
             //(i.e. if loop 3 - Enemies from Loops 1,2,3 will load)
@@ -107,9 +99,17 @@ public class GameManager : MonoBehaviour
             {
                 foreach (var enemy in loopEnemies)
                 {
-                    enemy.gameObject.SetActive(true);
-                    NumberOfEnemiesLeft++;
-                    Debug.Log("Num Enemies Left - In LoadScene(): " + NumberOfEnemiesLeft);
+                    if(enemy.tag == "Enemy")
+                    {
+                        enemy.gameObject.SetActive(true);
+                        NumberOfEnemiesLeft++;
+                    }
+
+                    if(enemy.tag == "Trap")
+                    {
+                        enemy.gameObject.SetActive(true);
+                    }
+
                 }
             }
             counter++;

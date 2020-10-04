@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 9155080498177624210}
   - component: {fileID: 3500694565178088078}
   - component: {fileID: 8169198680176365467}
+  - component: {fileID: -662798547605568509}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: Enemy
@@ -135,8 +136,29 @@ MonoBehaviour:
   dmg: 0
   moveSpeedMax: 0
   moveSpeed: 0
+  moveSpeedRolling: 0
   deathState: 0
+  hitEnemy: 0
   nameForAudio: Skeleton
+--- !u!114 &-662798547605568509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9155080498177624208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d316d5df6383fa4391b0683b2fd829a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisplayText: 
+  DisplayPoints: 0
+  TextFontSize: 14
+  TextPrefab: {fileID: 0}
+  Speed: 1
+  DestroyAfter: 3
+  scoreAmt: 5
 --- !u!1 &9155080499353837436
 GameObject:
   m_ObjectHideFlags: 0
