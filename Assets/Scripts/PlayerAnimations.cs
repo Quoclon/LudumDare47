@@ -110,14 +110,14 @@ public class PlayerAnimations : MonoBehaviour
             stats.hitEnemy = false;
         }
 
+        // Player Death Animation
         if(stats.health <= 0 && stats.deathState == false)
         {
             stats.deathState = true;
-            anim.Play("anim_hero_dead");
-            //anim.SetBool("isPlayerDead", true);
-            //anim.SetTrigger("isDying");
-            Debug.Log("test");
+            anim.SetTrigger("isDying");
             audioManager.playAudio("PlayerDead");
+            Debug.Log("Player Died");
+           
 
         }
     }

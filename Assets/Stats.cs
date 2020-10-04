@@ -10,6 +10,9 @@ public class Stats : MonoBehaviour
     public int dmgMax;
     public int dmg;
 
+    public int energyMax;
+    public int energy;
+
     public float moveSpeedMax;
     public float moveSpeed;
     public float moveSpeedRolling;
@@ -49,31 +52,37 @@ public class Stats : MonoBehaviour
 
     }
 
-    private void CheckDeathPlayer()
-    {
-        if (health <= 0 && gameObject.tag == "Player")
-        {
-            //deathState = true;
-            Debug.Log("Player Died");
-        }
-    }
-
-    /*private void CheckDeath()
+    private void CheckDeath()
     {
         if (health <= 0)
         {
-            audioManager.playAudio("Death" + nameForAudio);
-            Debug.Log("Test");
-            deathState = true;
-            Destroy(this.gameObject);
-            gameManager.CheckEnemiesRemaining();
+            if (gameObject.tag == "Player")
+            {
+                Debug.Log("Player Died");
+            }
+            else
+            {
+                audioManager.playAudio("Death" + nameForAudio);
+                deathState = true;
+                Debug.Log("Enemy Died");
+                Destroy(this.gameObject);
+                /*gameManager.CheckEnemiesRemaining();*/
+            }
         }
-    }*/
+    }
 
     public void DamageHealth(int damage)
     {
         health -= damage;
-        //CheckDeath();
+        if (gameObject.tag == "Player")
+        {
+            
+        }
+        else if(gameObject.name == "Skeleton")
+        {
+            audioManager.playAudio("SkeletonHit");
+        }
+        CheckDeath();
         StartCoroutine(flashColor());
     }
 
