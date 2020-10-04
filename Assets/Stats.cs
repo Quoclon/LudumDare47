@@ -53,6 +53,7 @@ public class Stats : MonoBehaviour
             Debug.Log("Test");
             deathState = true;
             Destroy(this.gameObject);
+            
         }
     }
 
