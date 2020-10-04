@@ -16,15 +16,20 @@ public class Stats : MonoBehaviour
     public bool deathState;
 
     private Color entityColor;
+
+    AudioManager audioManager;
+    public string nameForAudio;
     
     // Start is called before the first frame update
     void Start()
     {
+        audioManager = FindObjectOfType<AudioManager>();
+        entityColor = GetComponentInChildren<SpriteRenderer>().color;
+
         health = healthMax;
         dmg = dmgMax;
         moveSpeed = moveSpeedMax;
 
-        entityColor = GetComponentInChildren<SpriteRenderer>().color;
     }
 
     // Update is called once per frame
@@ -41,6 +46,8 @@ public class Stats : MonoBehaviour
     {
         if(health <= 0)
         {
+            audioManager.playAudio("Death"+ nameForAudio);
+            deathState = true;
             Destroy(this.gameObject);
         }
     }

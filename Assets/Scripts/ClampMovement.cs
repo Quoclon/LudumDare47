@@ -10,6 +10,8 @@ public class ClampMovement : MonoBehaviour
     private float objectWidth;
     private float objectHeight;
 
+    public float bonusHeightTop;
+    public float bonusHeightBottom;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +26,7 @@ public class ClampMovement : MonoBehaviour
     {
         Vector3 viewPos = transform.position;
         viewPos.x = Mathf.Clamp(viewPos.x, -screenBounds.x + objectWidth, screenBounds.x - objectWidth);
-        viewPos.y = Mathf.Clamp(viewPos.y, -screenBounds.y + objectHeight, screenBounds.y - objectHeight);
+        viewPos.y = Mathf.Clamp(viewPos.y, -screenBounds.y + objectHeight * bonusHeightBottom, screenBounds.y - objectHeight * bonusHeightTop);
         transform.position = viewPos;
     }
 
