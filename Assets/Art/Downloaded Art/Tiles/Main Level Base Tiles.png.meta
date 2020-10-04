@@ -1,0 +1,2104 @@
+fileFormatVersion: 2
+guid: a5d2c6ca274aff6448f5e355ab4b8105
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1780128163611954597
+    second: Main Level Base Tiles_0
+  - first:
+      213: 4602709825805123137
+    second: Main Level Base Tiles_1
+  - first:
+      213: -4265927310752488159
+    second: Main Level Base Tiles_2
+  - first:
+      213: 102029188251786681
+    second: Main Level Base Tiles_3
+  - first:
+      213: -5651555139209924209
+    second: Main Level Base Tiles_4
+  - first:
+      213: 2982781894186760768
+    second: Main Level Base Tiles_5
+  - first:
+      213: -4239504600935223569
+    second: Main Level Base Tiles_6
+  - first:
+      213: 3056542610943168062
+    second: Main Level Base Tiles_7
+  - first:
+      213: -2871740099813358217
+    second: Main Level Base Tiles_8
+  - first:
+      213: -2027600299606776079
+    second: Main Level Base Tiles_9
+  - first:
+      213: 1783453479422290948
+    second: Main Level Base Tiles_10
+  - first:
+      213: 2796710249968107205
+    second: Main Level Base Tiles_11
+  - first:
+      213: 3109581074654173132
+    second: Main Level Base Tiles_12
+  - first:
+      213: 8259179557329547115
+    second: Main Level Base Tiles_13
+  - first:
+      213: -2324842731539185817
+    second: Main Level Base Tiles_14
+  - first:
+      213: 1295152132502853476
+    second: Main Level Base Tiles_15
+  - first:
+      213: -4315083893899183660
+    second: Main Level Base Tiles_16
+  - first:
+      213: -4754908584206502095
+    second: Main Level Base Tiles_17
+  - first:
+      213: -6341582354897144091
+    second: Main Level Base Tiles_18
+  - first:
+      213: 9091408618619302982
+    second: Main Level Base Tiles_19
+  - first:
+      213: -3234546643045362166
+    second: Main Level Base Tiles_20
+  - first:
+      213: 2863826325507876248
+    second: Main Level Base Tiles_21
+  - first:
+      213: -3393503554795760602
+    second: Main Level Base Tiles_22
+  - first:
+      213: -9054511915391119482
+    second: Main Level Base Tiles_23
+  - first:
+      213: -6904772077730942322
+    second: Main Level Base Tiles_24
+  - first:
+      213: 9217466527717548898
+    second: Main Level Base Tiles_25
+  - first:
+      213: -3153816002255498520
+    second: Main Level Base Tiles_26
+  - first:
+      213: -5024225621814620797
+    second: Main Level Base Tiles_27
+  - first:
+      213: -5259874801306752710
+    second: Main Level Base Tiles_28
+  - first:
+      213: 215118709930167599
+    second: Main Level Base Tiles_29
+  - first:
+      213: 5985763578054106682
+    second: Main Level Base Tiles_30
+  - first:
+      213: 6442063014967099328
+    second: Main Level Base Tiles_31
+  - first:
+      213: -1138935603887802663
+    second: Main Level Base Tiles_32
+  - first:
+      213: 3849335268386723845
+    second: Main Level Base Tiles_33
+  - first:
+      213: -7853737179285562971
+    second: Main Level Base Tiles_34
+  - first:
+      213: -7625278824384779350
+    second: Main Level Base Tiles_35
+  - first:
+      213: 8992587705540617984
+    second: Main Level Base Tiles_36
+  - first:
+      213: 8501705712512216495
+    second: Main Level Base Tiles_37
+  - first:
+      213: -5790155994254432214
+    second: Main Level Base Tiles_38
+  - first:
+      213: 8229599548788326519
+    second: Main Level Base Tiles_39
+  - first:
+      213: -3261900436690252574
+    second: Main Level Base Tiles_40
+  - first:
+      213: 7355955030799433232
+    second: Main Level Base Tiles_41
+  - first:
+      213: -7291179110319548214
+    second: Main Level Base Tiles_42
+  - first:
+      213: 1528823094522818346
+    second: Main Level Base Tiles_43
+  - first:
+      213: 151235577646242381
+    second: Main Level Base Tiles_44
+  - first:
+      213: 7892309670197003625
+    second: Main Level Base Tiles_45
+  - first:
+      213: 4770062046855170122
+    second: Main Level Base Tiles_46
+  - first:
+      213: -7496321451451548316
+    second: Main Level Base Tiles_47
+  - first:
+      213: 8127689264652196796
+    second: Main Level Base Tiles_48
+  - first:
+      213: 8323924966204321760
+    second: Main Level Base Tiles_49
+  - first:
+      213: -4486594299907836836
+    second: Main Level Base Tiles_50
+  - first:
+      213: 4720043599064005554
+    second: Main Level Base Tiles_51
+  - first:
+      213: -3029158608305602480
+    second: Main Level Base Tiles_52
+  - first:
+      213: 97223558097034913
+    second: Main Level Base Tiles_53
+  - first:
+      213: 6649121220396952703
+    second: Main Level Base Tiles_54
+  - first:
+      213: 1957557730769376570
+    second: Main Level Base Tiles_55
+  - first:
+      213: -5075839105893361184
+    second: Main Level Base Tiles_56
+  - first:
+      213: -3460441843241394744
+    second: Main Level Base Tiles_57
+  - first:
+      213: -6552578147079205602
+    second: Main Level Base Tiles_58
+  - first:
+      213: -8714529042537368247
+    second: Main Level Base Tiles_59
+  - first:
+      213: 257291961509808472
+    second: Main Level Base Tiles_60
+  - first:
+      213: 4030320275364525111
+    second: Main Level Base Tiles_61
+  - first:
+      213: -9123820434168901197
+    second: Main Level Base Tiles_62
+  - first:
+      213: -5537116205023594140
+    second: Main Level Base Tiles_63
+  - first:
+      213: 7562717127820391308
+    second: Main Level Base Tiles_64
+  - first:
+      213: -8340320618900621935
+    second: Main Level Base Tiles_65
+  - first:
+      213: 1787786136496230719
+    second: Main Level Base Tiles_66
+  - first:
+      213: 3012317725681103450
+    second: Main Level Base Tiles_67
+  - first:
+      213: -8849317652020682653
+    second: Main Level Base Tiles_68
+  - first:
+      213: 927278302008798245
+    second: Main Level Base Tiles_69
+  - first:
+      213: 2227406009026174167
+    second: Main Level Base Tiles_70
+  - first:
+      213: 3245874934058451828
+    second: Main Level Base Tiles_71
+  - first:
+      213: 1682713300307386934
+    second: Main Level Base Tiles_72
+  - first:
+      213: 2946969672600709680
+    second: Main Level Base Tiles_73
+  - first:
+      213: 4305727101758184206
+    second: Main Level Base Tiles_0
+  - first:
+      213: -2973525318126171648
+    second: Main Level Base Tiles_1
+  - first:
+      213: 4955854550292894607
+    second: Main Level Base Tiles_2
+  - first:
+      213: -6042630323757028816
+    second: Main Level Base Tiles_3
+  - first:
+      213: 1133679752685131071
+    second: Main Level Base Tiles_4
+  - first:
+      213: -5105420843261567806
+    second: Main Level Base Tiles_5
+  - first:
+      213: 6432604453043191257
+    second: Main Level Base Tiles_6
+  - first:
+      213: 4071243263678685622
+    second: Main Level Base Tiles_7
+  - first:
+      213: -4654156461970785724
+    second: Main Level Base Tiles_8
+  - first:
+      213: 3591059895373385653
+    second: Main Level Base Tiles_9
+  - first:
+      213: -2169878681519086251
+    second: Main Level Base Tiles_10
+  - first:
+      213: -2236503744794649045
+    second: Main Level Base Tiles_11
+  - first:
+      213: -5369919020763654661
+    second: Main Level Base Tiles_12
+  - first:
+      213: 8968765645416433699
+    second: Main Level Base Tiles_13
+  - first:
+      213: -641270538897354407
+    second: Main Level Base Tiles_14
+  - first:
+      213: 882386725933269485
+    second: Main Level Base Tiles_15
+  - first:
+      213: 5973182091153054430
+    second: Main Level Base Tiles_16
+  - first:
+      213: 4271068706805164750
+    second: Main Level Base Tiles_17
+  - first:
+      213: -2428543881667975461
+    second: Main Level Base Tiles_18
+  - first:
+      213: -1596972627893264910
+    second: Main Level Base Tiles_19
+  - first:
+      213: 3180607017624522340
+    second: Main Level Base Tiles_20
+  - first:
+      213: 3323050909627674579
+    second: Main Level Base Tiles_21
+  - first:
+      213: -837065886583092477
+    second: Main Level Base Tiles_22
+  - first:
+      213: 5810683763975355550
+    second: Main Level Base Tiles_23
+  - first:
+      213: -4846622572187242923
+    second: Main Level Base Tiles_24
+  - first:
+      213: 2354236852887622879
+    second: Main Level Base Tiles_25
+  - first:
+      213: -4341424865482069508
+    second: Main Level Base Tiles_26
+  - first:
+      213: 3962350169568522085
+    second: Main Level Base Tiles_27
+  - first:
+      213: 4204477332387878280
+    second: Main Level Base Tiles_28
+  - first:
+      213: 1276652433750978243
+    second: Main Level Base Tiles_29
+  - first:
+      213: -4741376486471599577
+    second: Main Level Base Tiles_30
+  - first:
+      213: 2216817460029793375
+    second: Main Level Base Tiles_31
+  - first:
+      213: -1221950099025803979
+    second: Main Level Base Tiles_32
+  - first:
+      213: -6196806227347250368
+    second: Main Level Base Tiles_33
+  - first:
+      213: 8702145710316628870
+    second: Main Level Base Tiles_34
+  - first:
+      213: 6245086482459527394
+    second: Main Level Base Tiles_35
+  - first:
+      213: 6714849277319939766
+    second: Main Level Base Tiles_36
+  - first:
+      213: -7525682251077838810
+    second: Main Level Base Tiles_37
+  - first:
+      213: 3825864205737468354
+    second: Main Level Base Tiles_38
+  - first:
+      213: -576594526051133770
+    second: Main Level Base Tiles_39
+  - first:
+      213: -4841628317517211379
+    second: Main Level Base Tiles_40
+  - first:
+      213: -4062921358610493138
+    second: Main Level Base Tiles_41
+  - first:
+      213: -6528381852284216117
+    second: Main Level Base Tiles_42
+  - first:
+      213: 4008600635263045920
+    second: Main Level Base Tiles_43
+  - first:
+      213: 6352652420893480538
+    second: Main Level Base Tiles_44
+  - first:
+      213: -1561266191786280633
+    second: Main Level Base Tiles_45
+  - first:
+      213: 3268203734858837511
+    second: Main Level Base Tiles_46
+  - first:
+      213: -1569091951604417602
+    second: Main Level Base Tiles_47
+  - first:
+      213: 3338938657202981464
+    second: Main Level Base Tiles_48
+  - first:
+      213: 4577596954413133046
+    second: Main Level Base Tiles_49
+  - first:
+      213: -4876798376795019245
+    second: Main Level Base Tiles_50
+  - first:
+      213: 3969825573976910318
+    second: Main Level Base Tiles_51
+  - first:
+      213: -4194630741843605459
+    second: Main Level Base Tiles_52
+  - first:
+      213: -5046330286161826558
+    second: Main Level Base Tiles_53
+  - first:
+      213: -8258291221444702186
+    second: Main Level Base Tiles_54
+  - first:
+      213: -995537443773932782
+    second: Main Level Base Tiles_55
+  - first:
+      213: -8323771827387587311
+    second: Main Level Base Tiles_56
+  - first:
+      213: -638440672941973989
+    second: Main Level Base Tiles_57
+  - first:
+      213: 8512006023925851325
+    second: Main Level Base Tiles_58
+  - first:
+      213: 4064330955618422367
+    second: Main Level Base Tiles_59
+  - first:
+      213: 5120865031990295329
+    second: Main Level Base Tiles_60
+  - first:
+      213: 7621889457221988646
+    second: Main Level Base Tiles_61
+  - first:
+      213: 2253964942856183977
+    second: Main Level Base Tiles_62
+  - first:
+      213: 4155265854464972123
+    second: Main Level Base Tiles_63
+  - first:
+      213: 6688079274628454393
+    second: Main Level Base Tiles_64
+  - first:
+      213: 757912869097813079
+    second: Main Level Base Tiles_65
+  - first:
+      213: 8449986202810026378
+    second: Main Level Base Tiles_66
+  - first:
+      213: -5241873736804152808
+    second: Main Level Base Tiles_67
+  - first:
+      213: -8550916325463540462
+    second: Main Level Base Tiles_68
+  - first:
+      213: 204251073343470360
+    second: Main Level Base Tiles_69
+  - first:
+      213: 5680796133347063722
+    second: Main Level Base Tiles_70
+  - first:
+      213: 5903751283260032134
+    second: Main Level Base Tiles_71
+  - first:
+      213: 6212514857893778621
+    second: Main Level Base Tiles_72
+  - first:
+      213: -3926311040786839642
+    second: Main Level Base Tiles_73
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Main Level Base Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 608
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b91108cf301cb30800000000000000
+      internalID: 4305727101758184206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a85724a7aebb6d0800000000000000
+      internalID: -2973525318126171648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8316bcc47bb6c440800000000000000
+      internalID: 4955854550292894607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 608
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a657b5cb3442ca0800000000000000
+      internalID: -6042630323757028816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 455
+        width: 80
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3599d38ab3abbf00800000000000000
+      internalID: 1133679752685131071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 535
+        width: 80
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccd480fac6e529b0800000000000000
+      internalID: -5105420843261567806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 544
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd3c3c2ba3354950800000000000000
+      internalID: 6432604453043191257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 535
+        width: 64
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b125cd8d26ff7830800000000000000
+      internalID: 4071243263678685622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 450
+        width: 268
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a742b4b5d196fb0800000000000000
+      internalID: -4654156461970785724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 528
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfc1e6d2f106d130800000000000000
+      internalID: 3591059895373385653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 535
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555ac5ee5da03e1e0800000000000000
+      internalID: -2169878681519086251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 535
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e1fa091b756f0e0800000000000000
+      internalID: -2236503744794649045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 448
+        width: 16
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5d4c60a173a75b0800000000000000
+      internalID: -5369919020763654661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 453
+        width: 16
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32806c006d4777c70800000000000000
+      internalID: 8968765645416433699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 448
+        width: 16
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951991ca7dfb917f0800000000000000
+      internalID: -641270538897354407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 496
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1c5c95d0ede3c00800000000000000
+      internalID: 882386725933269485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 448
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda17e1f67105e250800000000000000
+      internalID: 5973182091153054430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 16
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaa8681c52e54b30800000000000000
+      internalID: 4271068706805164750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 448
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd66bb3e4341c4ed0800000000000000
+      internalID: -2428543881667975461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd56662bd966d9e0800000000000000
+      internalID: -1596972627893264910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 370
+        width: 204
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ecf9f1b39c32c20800000000000000
+      internalID: 3180607017624522340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 384
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df65ee2239dd1e20800000000000000
+      internalID: 3323050909627674579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 384
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b0e98d2052264f0800000000000000
+      internalID: -837065886583092477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 359
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c71e5d812b3a050800000000000000
+      internalID: 5810683763975355550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ea368f2765dbcb0800000000000000
+      internalID: -4846622572187242923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd41085c1fdeba020800000000000000
+      internalID: 2354236852887622879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9a4e1361920c3c0800000000000000
+      internalID: -4341424865482069508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f27dc5c781df630800000000000000
+      internalID: 3962350169568522085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88559278bdd495a30800000000000000
+      internalID: 4204477332387878280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce6d5fdf9497b110800000000000000
+      internalID: 1276652433750978243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 384
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a7879d43f333eb0800000000000000
+      internalID: -4741376486471599577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54a5f41cb7b3ce10800000000000000
+      internalID: 2216817460029793375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535405eebd2ca0fe0800000000000000
+      internalID: -1221950099025803979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 319
+        width: 160
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043e90d7195800aa0800000000000000
+      internalID: -6196806227347250368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bac17ea6b34c870800000000000000
+      internalID: 8702145710316628870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_35
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 320
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8089261110ba650800000000000000
+      internalID: 6245086482459527394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_36
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 320
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b681f647dfef2d50800000000000000
+      internalID: 6714849277319939766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_37
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 299
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6281b0c8dd76f8790800000000000000
+      internalID: -7525682251077838810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_38
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c12ddd8933381530800000000000000
+      internalID: 3825864205737468354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_39
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6994f55568ff7f0800000000000000
+      internalID: -576594526051133770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_40
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d091aef72b41fccb0800000000000000
+      internalID: -4841628317517211379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_41
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e219ca5fc8a9d97c0800000000000000
+      internalID: -4062921358610493138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_42
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc1e705b478665a0800000000000000
+      internalID: -6528381852284216117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_43
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021524f0a0961a730800000000000000
+      internalID: 4008600635263045920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_44
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5691e018b7292850800000000000000
+      internalID: 6352652420893480538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_45
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 231
+        width: 22
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74970c6aba4455ae0800000000000000
+      internalID: -1561266191786280633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_46
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 226
+        width: 204
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70eaddd2bfdfa5d20800000000000000
+      internalID: 3268203734858837511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_47
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 231
+        width: 22
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbb1b4fe27793ae0800000000000000
+      internalID: -1569091951604417602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_48
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 256
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a476da40b465e20800000000000000
+      internalID: 3338938657202981464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc64b84d24e68f30800000000000000
+      internalID: 4577596954413133046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_50
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 272
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3186ee5f6b1225cb0800000000000000
+      internalID: -4876798376795019245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_51
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 272
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9a7259357a71730800000000000000
+      internalID: 3969825573976910318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_52
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d288a7c709da9c5c0800000000000000
+      internalID: -4194630741843605459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_53
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d67026755d7f9b0800000000000000
+      internalID: -5046330286161826558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_54
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610df0e63e7a46d80800000000000000
+      internalID: -8258291221444702186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_55
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b114f28f32f22f0800000000000000
+      internalID: -995537443773932782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_56
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115a82dcf950c7c80800000000000000
+      internalID: -8323771827387587311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_57
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ed12f279dc327f0800000000000000
+      internalID: -638440672941973989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 272
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4e5165168b02670800000000000000
+      internalID: 8512006023925851325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_59
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e824b6877676830800000000000000
+      internalID: 4064330955618422367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_60
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b30867d97f01740800000000000000
+      internalID: 5120865031990295329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_61
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621f20f241466c960800000000000000
+      internalID: 7621889457221988646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_62
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0602b6c21b74f10800000000000000
+      internalID: 2253964942856183977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_63
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55d1b277487aa930800000000000000
+      internalID: 4155265854464972123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_64
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f791e15aa4d0dc50800000000000000
+      internalID: 6688079274628454393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_65
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754b5452db5a48a00800000000000000
+      internalID: 757912869097813079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_66
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 146
+        width: 204
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8981777ea1644570800000000000000
+      internalID: 8449986202810026378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ac658eb9f1147b0800000000000000
+      internalID: -5241873736804152808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d38ac18ea055980800000000000000
+      internalID: -8550916325463540462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_69
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b31afd445a5d200800000000000000
+      internalID: 204251073343470360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_70
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa770913cfd36de40800000000000000
+      internalID: 5680796133347063722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_71
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68488f043865ee150800000000000000
+      internalID: 5903751283260032134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_72
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db458921959473650800000000000000
+      internalID: 6212514857893778621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Level Base Tiles_73
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7c43039e0f289c0800000000000000
+      internalID: -3926311040786839642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
