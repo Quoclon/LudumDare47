@@ -43,3 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff1479de35ab5e48a9009ca13d6781e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneNum: 1
+  NumberOfEnemiesLeft: 0
