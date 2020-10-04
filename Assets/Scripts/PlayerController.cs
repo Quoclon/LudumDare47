@@ -5,34 +5,19 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
-    // Player Movement Variables
-    public float moveSpeed;
-    public float moveSpeedCurrent;
-    public float moveSpeedRolling;
     public Vector2 moveInput;
     public Rigidbody2D theRB;
-
-    // Player Stat Variables
-    public int health = 100;
-
-    // Other scripts can use this to set the current moveSpeed variable
-    public void setMoveSpeedCurrent(float ms)
-    {
-        moveSpeedCurrent = ms;
-    }
+    public Stats stats;
 
     // Start is called before the first frame update
     void Start()
     {
-        moveSpeedCurrent = moveSpeed;
-        moveSpeedRolling = moveSpeed * 2f;
+        stats = GetComponent<Stats>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
         // Store moveInput in the Horizontal direction. Horizontal references the Unity Input 'Horizonal' defaults
         moveInput.x = Input.GetAxisRaw("Horizontal");
 
@@ -53,10 +38,8 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
         }
 
-        // Add on to the Player's current Position with a new Transform: Position using values from moveInput x & y
-        // Multiply each input by Time.deltaTime to smooth out movement
-        //transform.position += new Vector3(moveInput.x, moveInput.y, 0f) * Time.deltaTime * moveSpeedCurrent;
-        theRB.velocity = moveInput * moveSpeedCurrent;
+        // Multiply the RB position vector by moveSpeed to get current velocity
+        theRB.velocity = moveInput * stats.moveSpeed;
 
     }
 }

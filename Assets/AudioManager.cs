@@ -8,9 +8,14 @@ public class AudioManager : MonoBehaviour
     AudioSource[] audioSources;
 
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         audioSources = Resources.FindObjectsOfTypeAll<AudioSource>();
+    }
+
+    void Start()
+    {
+        
     }
 
     // Update is called once per frame
@@ -29,7 +34,6 @@ public class AudioManager : MonoBehaviour
             {
                 //Debug.Log(audioSourceName);
                 audioSource.Play();
-                //float playTime = audioSource.clip.length;
             }
         }
     }

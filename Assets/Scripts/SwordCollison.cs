@@ -7,16 +7,13 @@ public class SwordCollison : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other != null &&  other.tag != "Player")
-        {
-            other.GetComponent<Stats>().DamageHealth(1);
-            Debug.Log("ENTER: " + other.transform.position);
-        }
+        Debug.Log("Hit Enemy: " + other.tag);
+        other.GetComponent<Stats>().DamageHealth(1);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-            Debug.Log("EXIT: " + other.transform.position);
+            //Debug.Log("EXIT" + other.tag);
     }
 
     // Start is called before the first frame update
