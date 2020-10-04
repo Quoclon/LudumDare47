@@ -17,7 +17,6 @@ public class PlayerAnimations : MonoBehaviour
     {
         //Get the Global Audio Manager to Use for Audio
         audioManager = FindObjectOfType<AudioManager>();
-
         stats = GetComponentInParent<Stats>();
 
     }
@@ -27,12 +26,11 @@ public class PlayerAnimations : MonoBehaviour
     {
         moveInput = GameObject.Find("Player").GetComponent<PlayerController>().moveInput;
 
-        //-----ANIMATOR-----//
-
         // Check the transition from Idle to Running
         if (moveInput != Vector2.zero)
         {
             anim.SetBool("isMoving", true);
+            audioManager.playAudio("Running");
         }
         else
         {
@@ -74,7 +72,7 @@ public class PlayerAnimations : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             anim.SetBool("isRolling", true);
-            audioManager.playAudio("Roll");
+            //audioManager.playAudio("Roll");
         }
         else if (Input.GetMouseButtonUp(1))
         {
@@ -112,6 +110,16 @@ public class PlayerAnimations : MonoBehaviour
             stats.hitEnemy = false;
         }
 
+        if(stats.health <= 0 && stats.deathState == false)
+        {
+            stats.deathState = true;
+            anim.Play("anim_hero_dead");
+            //anim.SetBool("isPlayerDead", true);
+            //anim.SetTrigger("isDying");
+            Debug.Log("test");
+            audioManager.playAudio("PlayerDead");
+
+        }
     }
 
 }

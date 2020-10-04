@@ -44,27 +44,36 @@ public class Stats : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             DamageHealth(50);
-            Debug.Log(health);
+            Debug.Log(gameObject.tag + " took " + health + " dmg");
         }
 
     }
 
-    private void CheckDeath()
+    private void CheckDeathPlayer()
+    {
+        if (health <= 0 && gameObject.tag == "Player")
+        {
+            //deathState = true;
+            Debug.Log("Player Died");
+        }
+    }
+
+    /*private void CheckDeath()
     {
         if (health <= 0)
         {
-            audioManager.playAudio("Death"+ nameForAudio);
+            audioManager.playAudio("Death" + nameForAudio);
             Debug.Log("Test");
             deathState = true;
             Destroy(this.gameObject);
             gameManager.CheckEnemiesRemaining();
         }
-    }
+    }*/
 
     public void DamageHealth(int damage)
     {
         health -= damage;
-        CheckDeath();
+        //CheckDeath();
         StartCoroutine(flashColor());
     }
 

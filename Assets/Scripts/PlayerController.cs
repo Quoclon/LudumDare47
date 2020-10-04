@@ -18,6 +18,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       // Player death handeling
+       if(stats.health <= 0)
+        {
+            theRB.velocity = Vector2.zero;
+        }
+        
         // Store moveInput in the Horizontal direction. Horizontal references the Unity Input 'Horizonal' defaults
         moveInput.x = Input.GetAxisRaw("Horizontal");
 

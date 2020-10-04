@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6095156976543551853}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.39, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -64,12 +64,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthMax: 150
   health: 150
-  dmgMax: 0
+  dmgMax: 10
   dmg: 0
   moveSpeedMax: 2.5
   moveSpeed: 0
   moveSpeedRolling: 5
   deathState: 0
+  hitEnemy: 0
   nameForAudio: 
 --- !u!61 &6095156976543551854
 BoxCollider2D:
@@ -132,7 +133,7 @@ GameObject:
   - component: {fileID: 6095156977917682005}
   m_Layer: 0
   m_Name: Roll Attack Collider
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,7 +226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6095156978070008117}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.55, y: 0.332, z: 0}
+  m_LocalPosition: {x: 0.55, y: -0.02, z: 0}
   m_LocalScale: {x: 0, y: 0.2, z: 0}
   m_Children: []
   m_Father: {fileID: 6095156978364599391}
