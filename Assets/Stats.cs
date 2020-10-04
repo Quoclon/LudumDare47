@@ -16,7 +16,7 @@ public class Stats : MonoBehaviour
 
     public bool deathState;
 
-    public bool currentlyHit = false;
+    public bool hitEnemy = false;
 
     private Color entityColor;
 
