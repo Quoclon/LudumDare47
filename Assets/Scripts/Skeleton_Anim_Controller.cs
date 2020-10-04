@@ -5,12 +5,16 @@ using UnityEngine;
 public class Skeleton_Anim_Controller : MonoBehaviour
 {
     Animator anim;
-
+    Skeleton_Controller skeletonController;
+    Stats stats;
+    
     // Start is called before the first frame update
     void Start()
     {
         //controller = GetComponent<Skeleton_Controller>();
         anim = GetComponent<Animator>();
+        skeletonController = GetComponentInParent<Skeleton_Controller>();
+        stats = GetComponentInParent<Stats>();
     }
 
     // Update is called once per frame
@@ -19,8 +23,13 @@ public class Skeleton_Anim_Controller : MonoBehaviour
         
     }
 
-    public void HandleAnimation(float idleTimerCurrent, float moveTimerCurrent)
+    public void HandleAnimation()
     {
+        float idleTimerCurrent = skeletonController.idleTimerCurrent;
+        float moveTimerCurrent = skeletonController.moveTimerCurrent;
+        bool attacking = skeletonController.attacking;
+
+
         //Idle (NOT USED)
         if (idleTimerCurrent >= 0 && moveTimerCurrent <= 0)
         {
@@ -34,9 +43,14 @@ public class Skeleton_Anim_Controller : MonoBehaviour
         }
 
         //Attacking
-        if (idleTimerCurrent >= 0 && moveTimerCurrent <= 0)
+        if (stats.health > 100)
         {
-            //anim.SetBool("idle", true);
+            anim.SetBool("attacking", true);
+        }
+
+        if (stats.deathState)
+        {
+            anim.SetBool("death", true);
         }
 
     }

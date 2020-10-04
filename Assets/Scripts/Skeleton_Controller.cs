@@ -11,16 +11,24 @@ public class Skeleton_Controller : MonoBehaviour
     [SerializeField] private float moveTimer;
     private float moveTimerMin = 1.0f;
     private float moveTimerMax = 6.0f;
-    private float moveTimerCurrent;
+    public float moveTimerCurrent;
 
     [SerializeField] private float idleTimer;
     private float idleTimerMin = 0.25f;
     private float idleTimerMax = 3.0f;
-    private float idleTimerCurrent;
+    public float idleTimerCurrent;
+
+    [SerializeField]
+    private float attackTimer = 3.0f;
+    //private float attackTimerMin = 0.25f;
+    //private float attackTimerMax = 3.0f;
+    public float attackTimerCurrent;
 
     private float moveSpeed = 0.5f;
     private float randMoveX;
     private float randMoveY;
+
+    public bool attacking = false;
 
 
 
@@ -28,14 +36,18 @@ public class Skeleton_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //anim = GetComponent<Animator>();
         anim_controller = GetComponentInChildren<Skeleton_Anim_Controller>();
 
-        //Set the move timers
+        //Set the move timer
         moveTimer = UnityEngine.Random.Range(moveTimerMin, moveTimerMax+1);
         moveTimerCurrent = moveTimer;
+
+        //Set the idle timer
         idleTimer = UnityEngine.Random.Range(idleTimerMin, idleTimerMax + 1);
         idleTimerCurrent = idleTimer;
+
+        //Set the attack timer
+        attackTimerCurrent = attackTimer;
 
         SetDirection(-1, 1);
     }
@@ -64,7 +76,6 @@ public class Skeleton_Controller : MonoBehaviour
 
     private void HandleMovement()
     {
-
         //Set to idle for duration of idleTimerCurrent
         if (moveTimerCurrent < 0 && idleTimerCurrent > 0)
         {
@@ -73,12 +84,10 @@ public class Skeleton_Controller : MonoBehaviour
             idleTimerCurrent -= Time.deltaTime;
         }
 
-
         //Set to Move once idleTimerCurrent less than zero
         if (moveTimerCurrent < 0 && idleTimerCurrent < 0)
         {
             SetDirection(-1, 1);
-            Debug.Log("RandX: " + randMoveX + "RandY: " + randMoveY);
             idleTimerCurrent = idleTimer;
             moveTimerCurrent = moveTimer;
         }
@@ -86,6 +95,7 @@ public class Skeleton_Controller : MonoBehaviour
         //Move the NPC
         transform.position += new Vector3(randMoveX, randMoveY, 0) * moveSpeed * Time.deltaTime;
         moveTimerCurrent -= Time.deltaTime;
+        attackTimerCurrent -= Time.deltaTime;
     }
 
 
@@ -104,15 +114,21 @@ public class Skeleton_Controller : MonoBehaviour
         }
     }
 
+    private void HandleAttack()
+    {
+        if (attackTimerCurrent <= 0)
+        {
+            attacking = true;
+        }
+    }
+
 
     // Update is called once per frame
     void Update()
     {
         HandleMovement();
         HandleOrientation();
-        //HandleAttack();
-        anim_controller.HandleAnimation(idleTimerCurrent, moveTimerCurrent);
+        HandleAttack();
+        anim_controller.HandleAnimation();
     }
-
-    
 }
