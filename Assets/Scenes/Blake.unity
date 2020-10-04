@@ -4078,6 +4078,72 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &767946100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 767946103}
+  - component: {fileID: 767946102}
+  - component: {fileID: 767946101}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &767946101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767946100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &767946102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767946100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &767946103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767946100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &821060382
 GameObject:
   m_ObjectHideFlags: 0
@@ -4353,6 +4419,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 254335107316854095, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b0a9f0f3db5001a47b5956fed55828c2, type: 3}
+    - target: {fileID: 254335107316854095, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
+      propertyPath: m_Volume
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 254335108237913704, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.92786515
@@ -4401,9 +4475,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Manager - Audio
       objectReference: {fileID: 0}
-    - target: {fileID: 851146942550140492, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
+    - target: {fileID: 1794828936365316492, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
@@ -6214,9 +6288,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3050999400092946345, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: healthMax
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 3050999400181864308, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
       propertyPath: healthMax
-      value: 90
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050999400844573451, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: healthMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050999401370415360, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: healthMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050999401391454000, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: healthMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050999401738708767, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: healthMax
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6559916310404296213, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
       propertyPath: m_Name
