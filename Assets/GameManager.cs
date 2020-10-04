@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public int sceneNumToLoad;
     public string sceneToLoad;
     public int sceneNum;
+    public int totalScenes = 5;
     public int NumberOfEnemiesLeft;
 
     public bool firstLoop = true;
@@ -59,7 +60,11 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            StartNextLoop();
+            //StartNextLoop();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape)){
+                Application.Quit();
         }
     }
 
@@ -232,7 +237,18 @@ public class GameManager : MonoBehaviour
         NumberOfEnemiesLeft--;
         if (NumberOfEnemiesLeft <= 0)
         {
-            StartNextLoop();
+            if (sceneNum == totalScenes)
+            {
+                DisableTraps();
+                DisableFireballs();
+                DisableEnemies();
+                DisablePlayer();
+                BeatGame();
+            }
+            else
+            {
+                StartNextLoop();
+            }
         }
     }
 
@@ -252,7 +268,7 @@ public class GameManager : MonoBehaviour
 
     public void BeatGame()
     {
-        //BeatGameText.enabled = false;
+        BeatGameText.SetActive(true);
     }
 
 

@@ -16,6 +16,8 @@ public class Stats : MonoBehaviour
     public float energyCost;
     public float energyGainPerSec;
 
+    public bool isRolling = false;
+
     public float moveSpeedMax;
     public float moveSpeed;
     public float moveSpeedRolling;
@@ -54,8 +56,8 @@ public class Stats : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.X))
         {
-            DamageHealth(50);
-            Debug.Log(gameObject.tag + " took " + health + " dmg");
+            //DamageHealth(50);
+            //Debug.Log(gameObject.tag + " took " + health + " dmg");
         }
 
         if (gameObject.tag == "Player")
@@ -73,8 +75,10 @@ public class Stats : MonoBehaviour
             {
                 energy = energyMax;
             }
-        }
 
+            //Debug.Log(isRolling);
+
+        }
 
 
     }
@@ -101,16 +105,25 @@ public class Stats : MonoBehaviour
 
     public void DamageHealth(int damage)
     {
-        health -= damage;
+
+        if (!isRolling)
+        {
+            health -= damage;
+        }
+       
+
         if (gameObject.tag == "Player")
         {
             if(health < 0)
             {
                 health = 0;
             }
+
+            audioManager.playAudio("PlayerHit");
+            StartCoroutine(flashColor());
             CheckDeath();
         }
-        else if(gameObject.name == "Skeleton")
+        else if(gameObject.tag == "Enemy")
         {
             audioManager.playAudio("SkeletonHit");
             StartCoroutine(flashColor());

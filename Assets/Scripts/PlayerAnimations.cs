@@ -11,10 +11,7 @@ public class PlayerAnimations : MonoBehaviour
     public Animator anim;
     public Stats stats;
 
-    private bool rolling = false;
-
-
-    // Start is called before the first frame update
+     // Start is called before the first frame update
     void Start()
     {
         //Get the Global Audio Manager to Use for Audio
@@ -72,15 +69,13 @@ public class PlayerAnimations : MonoBehaviour
         // Check if the Roll key is being pressed. If so set the isRolling bool to true
         if (Input.GetMouseButtonDown(1))
         {
-           
-            
-            if(rolling == false)
+            if(stats.isRolling == false)
             {
                 if (stats.energy >= stats.energyCost)
                 {
                     anim.SetBool("isRolling", true);
                     stats.ReduceEnergy();
-                    rolling = true;
+                    stats.isRolling = true;
                 }
             }
             //audioManager.playAudio("Roll");
@@ -88,7 +83,6 @@ public class PlayerAnimations : MonoBehaviour
         else if (Input.GetMouseButtonUp(1))
         {
             anim.SetBool("isRolling", false);
-            rolling = false;
         }
 
         // While the rolling animation is playing, set moveSpeedCurrent to moveSpeedRolling
@@ -99,6 +93,11 @@ public class PlayerAnimations : MonoBehaviour
         else
         {
             stats.UpdateMoveSpeed(stats.moveSpeedMax);
+        }
+
+        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_roll"))
+        {
+            stats.isRolling = false;
         }
 
         //Sword Slash Collison

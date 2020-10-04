@@ -42,8 +42,9 @@ public class PlayerController : MonoBehaviour
 
             // Multiply the RB position vector by moveSpeed to get current velocity
             theRB.velocity = moveInput * stats.moveSpeed;
+        }else
+        {
+            theRB.velocity = new Vector3(0, 0, 0);
         }
-        
-
     }
 }
