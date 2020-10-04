@@ -63,14 +63,22 @@ public class GameManager : MonoBehaviour
     {
         sceneNum++;
         //Debug.Log("StartNextLoop() - SceneNum: " + sceneNum);
+        //StartCoroutine(loadScene());
+        StartCoroutine(WaitToLoadScene());
+
+    }
+
+
+    IEnumerator WaitToLoadScene()
+    {
+        yield return new WaitForSeconds(2f);
         StartCoroutine(loadScene());
-        
     }
 
     IEnumerator loadScene()
     {
         SceneManager.LoadScene(sceneNumToLoad);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         LoadLoop();
     }
 
