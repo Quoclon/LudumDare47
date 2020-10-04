@@ -6,12 +6,23 @@ public class NPCCollision : MonoBehaviour
 {
     public float attackDelay;
     public bool axe;
+    public bool fireBall;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
         {
             if(axe)
+            {
+                if (GetComponentInParent<Stats>().hitEnemy == false)
+                {
+                    //if(other.GetComponentInChildren<Animator>().GetBool)
+                    other.GetComponent<Stats>().DamageHealth(GetComponentInParent<Stats>().dmgMax);
+                    GetComponentInParent<Stats>().hitEnemy = true;
+                    StartCoroutine(resetHit());
+                }
+            }
+            if (fireBall)
             {
                 if (GetComponentInParent<Stats>().hitEnemy == false)
                 {
@@ -24,9 +35,9 @@ public class NPCCollision : MonoBehaviour
             {
                 if (GetComponent<Stats>().hitEnemy == false)
                 {
-                    other.GetComponent<Stats>().DamageHealth(GetComponent<Stats>().dmg);
+                    /*other.GetComponent<Stats>().DamageHealth(GetComponent<Stats>().dmg);
                     GetComponent<Stats>().hitEnemy = true;
-                    StartCoroutine(resetHit());
+                    StartCoroutine(resetHit());*/
                 }
                     
             }

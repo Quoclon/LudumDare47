@@ -198,6 +198,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6559916309216182991}
     m_Modifications:
+    - target: {fileID: 8169198680176365467, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
+      propertyPath: dmgMax
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 9155080498177624208, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
       propertyPath: m_Name
       value: Skeleton (1)
@@ -284,6 +288,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6559916310125764083}
     m_Modifications:
+    - target: {fileID: 8169198680176365467, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
+      propertyPath: dmgMax
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 9155080498177624208, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
       propertyPath: m_Name
       value: Skeleton
@@ -362,6 +370,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6559916309216182991}
     m_Modifications:
+    - target: {fileID: 8169198680176365467, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
+      propertyPath: dmgMax
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 9155080498177624208, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
       propertyPath: m_Name
       value: Skeleton
@@ -448,6 +460,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6559916309216182991}
     m_Modifications:
+    - target: {fileID: 8169198680176365467, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
+      propertyPath: dmgMax
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 9155080498177624208, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
       propertyPath: m_Name
       value: Skeleton (2)
@@ -534,6 +550,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6559916310125764083}
     m_Modifications:
+    - target: {fileID: 8169198680176365467, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
+      propertyPath: dmgMax
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 9155080498177624208, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
       propertyPath: m_Name
       value: Skeleton
@@ -612,6 +632,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6559916309525997061}
     m_Modifications:
+    - target: {fileID: 8169198680176365467, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
+      propertyPath: dmgMax
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 9155080498177624208, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
       propertyPath: m_Name
       value: Skeleton
@@ -622,11 +646,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9155080498177624211, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.99
+      value: 2.18
       objectReference: {fileID: 0}
     - target: {fileID: 9155080498177624211, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.02
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 9155080498177624211, guid: 1808007c2882a6246b8ac462390c766c, type: 3}
       propertyPath: m_LocalPosition.z

@@ -66,6 +66,8 @@ MonoBehaviour:
   health: 150
   dmgMax: 10
   dmg: 0
+  energyMax: 0
+  energy: 0
   moveSpeedMax: 2.5
   moveSpeed: 0
   moveSpeedRolling: 5
@@ -171,7 +173,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6095156977917682011}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -239,7 +241,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6095156978070008117}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -247,7 +249,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.11
+  m_Radius: 2.74
 --- !u!114 &6095156978070008118
 MonoBehaviour:
   m_ObjectHideFlags: 0
