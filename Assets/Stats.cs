@@ -1,17 +1,20 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Stats : MonoBehaviour
 {
-    public int healthMax;
-    public int health;
+    public float healthMax;
+    public float health;
 
     public int dmgMax;
     public int dmg;
 
-    public int energyMax;
-    public int energy;
+    public float energyMax;
+    public float energy;
+    public float energyCost;
+    public float energyGainPerSec;
 
     public float moveSpeedMax;
     public float moveSpeed;
@@ -27,26 +30,52 @@ public class Stats : MonoBehaviour
     public string nameForAudio;
     GameManager gameManager;
 
+    HealthBarScript healthbar;
+    EnergyBarScript energybar;
+
     // Start is called before the first frame update
     void Start()
     {
         audioManager = FindObjectOfType<AudioManager>();
         entityColor = GetComponentInChildren<SpriteRenderer>().color;
         gameManager = FindObjectOfType<GameManager>();
+        healthbar = FindObjectOfType<HealthBarScript>();
+        energybar = FindObjectOfType<EnergyBarScript>();
 
         health = healthMax;
         dmg = dmgMax;
         moveSpeed = moveSpeedMax;
+        energy = energyMax;
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.X))
         {
             DamageHealth(50);
             Debug.Log(gameObject.tag + " took " + health + " dmg");
         }
+
+        if (gameObject.tag == "Player")
+        {
+            healthbar.SetMaxHealth(healthMax);
+            healthbar.SetHealth(health);
+        }
+
+        if (gameObject.tag == "Player")
+        {    
+            energybar.SetMaxEnergy(energyMax);
+            energybar.SetEnergy(energy);
+            energy += energyGainPerSec * Time.deltaTime;
+            if(energy > energyMax)
+            {
+                energy = energyMax;
+            }
+        }
+
+
 
     }
 
@@ -56,7 +85,7 @@ public class Stats : MonoBehaviour
         {
             if (gameObject.tag == "Player")
             {
-                Debug.Log("Player Died");
+                //Debug.Log("Player Died");
                 gameManager.GameOver();
             }
             else
@@ -75,6 +104,10 @@ public class Stats : MonoBehaviour
         health -= damage;
         if (gameObject.tag == "Player")
         {
+            if(health < 0)
+            {
+                health = 0;
+            }
             CheckDeath();
         }
         else if(gameObject.name == "Skeleton")
@@ -82,6 +115,15 @@ public class Stats : MonoBehaviour
             audioManager.playAudio("SkeletonHit");
             StartCoroutine(flashColor());
             CheckDeath();
+        }
+    }
+
+    public void ReduceEnergy()
+    {
+        energy -= energyCost;
+        if(energy < 0)
+        {
+            energy = 0;
         }
     }
 

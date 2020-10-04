@@ -11,6 +11,8 @@ public class PlayerAnimations : MonoBehaviour
     public Animator anim;
     public Stats stats;
 
+    private bool rolling = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +20,6 @@ public class PlayerAnimations : MonoBehaviour
         //Get the Global Audio Manager to Use for Audio
         audioManager = FindObjectOfType<AudioManager>();
         stats = GetComponentInParent<Stats>();
-
     }
 
     // Update is called once per frame
@@ -71,12 +72,23 @@ public class PlayerAnimations : MonoBehaviour
         // Check if the Roll key is being pressed. If so set the isRolling bool to true
         if (Input.GetMouseButtonDown(1))
         {
-            anim.SetBool("isRolling", true);
+           
+            
+            if(rolling == false)
+            {
+                if (stats.energy >= stats.energyCost)
+                {
+                    anim.SetBool("isRolling", true);
+                    stats.ReduceEnergy();
+                    rolling = true;
+                }
+            }
             //audioManager.playAudio("Roll");
         }
         else if (Input.GetMouseButtonUp(1))
         {
             anim.SetBool("isRolling", false);
+            rolling = false;
         }
 
         // While the rolling animation is playing, set moveSpeedCurrent to moveSpeedRolling

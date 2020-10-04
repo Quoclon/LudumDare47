@@ -241,7 +241,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void GameOver()
     {
-        Debug.Log("Game Over Ran");
+        //Debug.Log("Game Over Ran");
         DisableTraps();
         DisableFireballs();
         DisableEnemies();
