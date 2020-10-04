@@ -115,6 +115,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clamped: 0
+  bonusHeightTop: 4.2
+  bonusHeightBottom: 2
 --- !u!114 &8169198680176365467
 MonoBehaviour:
   m_ObjectHideFlags: 0
