@@ -91,22 +91,24 @@ public class PlayerAnimations : MonoBehaviour
         }
 
         //Sword Slash Collison
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_attack"))
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_attack") && stats.hitEnemy == false)
         {
             GameObject.Find("Sword Slash Collider").GetComponent<CircleCollider2D>().enabled = true;
         }
-        else
+        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_attack"))
         {
             GameObject.Find("Sword Slash Collider").GetComponent<CircleCollider2D>().enabled = false;
+            stats.hitEnemy = false;
         }
 
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_roll_attack"))
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_roll_attack") && stats.hitEnemy == false)
         {
             GameObject.Find("Roll Attack Collider").GetComponent<CircleCollider2D>().enabled = true;
         }
         else
         {
             GameObject.Find("Roll Attack Collider").GetComponent<CircleCollider2D>().enabled = false;
+            stats.hitEnemy = false;
         }
 
     }
