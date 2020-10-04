@@ -128,7 +128,18 @@ public class PlayerAnimations : MonoBehaviour
         else
         {
             GameObject.Find("Sword Slash Collider").GetComponent<CircleCollider2D>().enabled = false;
-            //Debug.Log("Sword OFF");
+        }
+
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_roll_attack"))
+        {
+            // Enable the Collider
+            GameObject.Find("Roll Attack Collider").GetComponent<CircleCollider2D>().enabled = true;
+            Debug.Log("Roll Atack HIT");
+
+        }
+        else
+        {
+            GameObject.Find("Roll Attack Collider").GetComponent<CircleCollider2D>().enabled = false;
         }
 
     }
