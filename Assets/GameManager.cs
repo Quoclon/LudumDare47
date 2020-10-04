@@ -7,18 +7,20 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    AudioManager audioManager;
+
     public int sceneNumToLoad;
     public string sceneToLoad;
     public int sceneNum;
     public int NumberOfEnemiesLeft;
 
-    //Handle UI
-    public TextMeshProUGUI StartLoopText;
-    public TextMeshProUGUI BeatLoopText;
-    public TextMeshProUGUI BeatGameText;
-    public TextMeshProUGUI GameOverText;
-
-
+    public bool firstLoop = true;
+    
+    [Header("**** UI - Text ****")]
+    public GameObject StartLoopText;
+    public GameObject BeatLoopText;
+    public GameObject BeatGameText;
+    public GameObject GameOverText;
 
 
     //Game Manager Singleton + Awake()
@@ -46,8 +48,11 @@ public class GameManager : MonoBehaviour
         {
             sceneNumToLoad = 0;
         }
-        LoadLoop();
+       
+        StartNextLoop();
     }
+
+
 
     // Update is called once per frame
     void Update()
@@ -58,47 +63,84 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void CheckEnemiesRemaining()
-    {
-        NumberOfEnemiesLeft--;
-        if(NumberOfEnemiesLeft <= 0)
-        {
-            StartNextLoop();
-        }
-    }
-
+    //Load Next Scene Functions
     public void StartNextLoop()
     {
-        sceneNum++;
+        if (!firstLoop) {
+            sceneNum++;
+        }
+        DisableEnemies();
+        DisableTraps();
+        DisableFireballs();
         StartCoroutine(WaitToLoadScene());
     }
 
     IEnumerator WaitToLoadScene()
     {
-        yield return new WaitForSeconds(2f);
+        if (!firstLoop)
+        {
+            BeatLoopText.SetActive(true);
+            yield return new WaitForSeconds(1.5f);
+        }
+        else
+        {
+            yield return new WaitForSeconds(0f);
+
+        }
         StartCoroutine(loadScene());
     }
 
     IEnumerator loadScene()
     {
         SceneManager.LoadScene(sceneNumToLoad);
-        yield return new WaitForSeconds(0.5f);
-        StartLoopText.text = "LEVEL 2";
+        if (!firstLoop)
+        {
+            BeatLoopText.SetActive(false);
+            StartLoopText.GetComponent<TextMeshProUGUI>().text = "Loop " + sceneNum;
+            StartLoopText.SetActive(true);
+            StartCoroutine(RemoveLoadSceneText());
+            yield return new WaitForSeconds(.5f);
+        }
+        else
+        {
+            yield return new WaitForSeconds(.5f);
+        }
+
         LoadLoop();
+
     }
 
-    public void RestartLoops()
+    IEnumerator RemoveLoadSceneText()
     {
-        sceneNum = 1;
+        yield return new WaitForSeconds(2f);
+        StartLoopText.SetActive(false);
     }
 
+    //Function that runs to configure each loop
     void LoadLoop()
     {
+        //DisableTraps();
+        //DisableFireballs();
+        //DisableEnemies();
         LoadEnemies();
-        LoadTraps();
+        if (firstLoop)
+        {
+            firstLoop = false;
+        }
+        audioManager = FindObjectOfType<AudioManager>();
+        audioManager.playAudio("StartMusic");
     }
 
- 
+    IEnumerator RestartLoops()
+    {
+        sceneNum = 1;
+        firstLoop = true;
+        yield return new WaitForSeconds(4f);
+        GameOverText.SetActive(false);
+        DisablePlayer();
+        StartNextLoop();
+    }
+
     void LoadEnemies()
     {
         //Check for ALL objects with the name of Loop 
@@ -135,15 +177,82 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
-    void LoadTraps()
+    void DisableTraps()
     {
-        //GameObject[] arrayOfTraps = GameObject.FindGameObjectsWithTag("FireballTrap");
+        GameObject[] arrayOfTraps = GameObject.FindGameObjectsWithTag("FireballTrap");
+        foreach (var trap in arrayOfTraps)
+        {
+            trap.SetActive(false);
+        }
+
+        GameObject[] arrayOfFireBallManagers = GameObject.FindGameObjectsWithTag("FireballManager");
+        foreach (var manager in arrayOfFireBallManagers)
+        {
+            manager.SetActive(false);
+        }
     }
 
+    void DisableFireballs()
+    {
+        GameObject[] arrayOfFireballs = GameObject.FindGameObjectsWithTag("Fireball");
+        foreach (var fireball in arrayOfFireballs)
+        {
+            fireball.SetActive(false);
+        }
+    }
+
+    void DisableEnemies()
+    {
+        GameObject[] arrayOfEnemies = GameObject.FindGameObjectsWithTag("Enemy");
+        if(arrayOfEnemies.Length > 0)
+        {
+            foreach (var enemy in arrayOfEnemies)
+            {
+                enemy.SetActive(false);
+            }
+        }
+   
+    }
+
+    void DisablePlayer()
+    {
+        GameObject[] arrayOfPlayers = GameObject.FindGameObjectsWithTag("Player");
+        if (arrayOfPlayers.Length > 0)
+        {
+            foreach (var player in arrayOfPlayers)
+            {
+                player.SetActive(false);
+            }
+        }
+
+    }
+
+    public void CheckEnemiesRemaining()
+    {
+        NumberOfEnemiesLeft--;
+        if (NumberOfEnemiesLeft <= 0)
+        {
+            StartNextLoop();
+        }
+    }
+
+    /// <summary>
+    /// Handle Text Stuff
+    /// </summary>
     public void GameOver()
     {
-        GameOverText.enabled = true;
+        Debug.Log("Game Over Ran");
+        DisableTraps();
+        DisableFireballs();
+        DisableEnemies();
+        GameOverText.SetActive(true);
+        audioManager.stopAudio("StartMusic");
+        StartCoroutine(RestartLoops());
+    }
+
+    public void BeatGame()
+    {
+        //BeatGameText.enabled = false;
     }
 
 

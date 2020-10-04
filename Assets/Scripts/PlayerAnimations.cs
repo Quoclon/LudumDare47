@@ -116,9 +116,6 @@ public class PlayerAnimations : MonoBehaviour
             stats.deathState = true;
             anim.SetTrigger("isDying");
             audioManager.playAudio("PlayerDead");
-            Debug.Log("Player Died");
-           
-
         }
     }
 

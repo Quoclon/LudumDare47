@@ -18,7 +18,6 @@ public class ManageFireballTraps : MonoBehaviour
     {
         gameManager = FindObjectOfType<GameManager>();
         timerCurrent = timerMax;
-        Debug.Log("Script Ran");
     }
 
     // Update is called once per frame

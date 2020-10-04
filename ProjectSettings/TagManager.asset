@@ -9,7 +9,8 @@ TagManager:
   - Loop
   - Transition
   - FireballTrap
-  - FireBallManager
+  - Fireball
+  - FireballManager
   layers:
   - Default
   - TransparentFX

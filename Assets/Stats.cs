@@ -37,8 +37,6 @@ public class Stats : MonoBehaviour
         health = healthMax;
         dmg = dmgMax;
         moveSpeed = moveSpeedMax;
-
-        audioManager.playAudio("StartMusic");
     }
 
     // Update is called once per frame
@@ -59,14 +57,15 @@ public class Stats : MonoBehaviour
             if (gameObject.tag == "Player")
             {
                 Debug.Log("Player Died");
+                gameManager.GameOver();
             }
             else
             {
                 audioManager.playAudio("Death" + nameForAudio);
                 deathState = true;
-                Debug.Log("Enemy Died");
+                //Debug.Log("Enemy Died");
                 Destroy(this.gameObject);
-                /*gameManager.CheckEnemiesRemaining();*/
+                gameManager.CheckEnemiesRemaining();
             }
         }
     }
@@ -76,14 +75,14 @@ public class Stats : MonoBehaviour
         health -= damage;
         if (gameObject.tag == "Player")
         {
-            
+            CheckDeath();
         }
         else if(gameObject.name == "Skeleton")
         {
             audioManager.playAudio("SkeletonHit");
+            StartCoroutine(flashColor());
+            CheckDeath();
         }
-        CheckDeath();
-        StartCoroutine(flashColor());
     }
 
     public void UpdateMoveSpeed(float ms)

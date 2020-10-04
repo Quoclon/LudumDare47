@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fireballz
       objectReference: {fileID: 0}
+    - target: {fileID: 6887597465061417324, guid: 206778a677dd94642bac07b14b2b57cd, type: 3}
+      propertyPath: m_TagString
+      value: Fireball
+      objectReference: {fileID: 0}
     - target: {fileID: 6887597465061417327, guid: 206778a677dd94642bac07b14b2b57cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.455271

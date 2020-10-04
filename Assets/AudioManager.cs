@@ -37,4 +37,18 @@ public class AudioManager : MonoBehaviour
             }
         }
     }
+
+    public void stopAudio(string audioSourceName)
+    {
+        foreach (AudioSource audioSource in audioSources)
+        {
+            //Debug.Log("AudioSource in Array of Audiosources: " + audioSource);
+
+            if (audioSource.name == audioSourceName)
+            {
+                //Debug.Log(audioSourceName);
+                audioSource.Stop();
+            }
+        }
+    }
 }
