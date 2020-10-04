@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -80,7 +81,14 @@ public class GameManager : MonoBehaviour
         sceneNum = 1;
     }
 
-    public void LoadLoop()
+    void LoadLoop()
+    {
+        LoadEnemies();
+        LoadTraps();
+    }
+
+ 
+    void LoadEnemies()
     {
         //Check for ALL objects with the name of Loop 
         GameObject[] arrayOfLoops = GameObject.FindGameObjectsWithTag("Loop");
@@ -99,15 +107,15 @@ public class GameManager : MonoBehaviour
             {
                 foreach (var enemy in loopEnemies)
                 {
-                    if(enemy.tag == "Enemy")
+                    if (enemy.tag == "Enemy")
                     {
                         enemy.gameObject.SetActive(true);
                         NumberOfEnemiesLeft++;
                     }
 
-                    if(enemy.tag == "Trap")
+                    if (enemy.tag == "Trap")
                     {
-                        enemy.gameObject.SetActive(true);
+                        //enemy.gameObject.SetActive(true);
                     }
 
                 }
@@ -115,4 +123,13 @@ public class GameManager : MonoBehaviour
             counter++;
         }
     }
+
+
+    void LoadTraps()
+    {
+        //GameObject[] arrayOfTraps = GameObject.FindGameObjectsWithTag("FireballTrap");
+    }
+
+
+
 }

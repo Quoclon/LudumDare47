@@ -8,6 +8,8 @@ TagManager:
   - Sword
   - Loop
   - Transition
+  - FireballTrap
+  - FireBallManager
   layers:
   - Default
   - TransparentFX
