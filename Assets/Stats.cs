@@ -10,8 +10,9 @@ public class Stats : MonoBehaviour
     public int dmgMax;
     public int dmg;
 
-    public int moveSpeedMax;
-    public int moveSpeed;
+    public float moveSpeedMax;
+    public float moveSpeed;
+    public float moveSpeedRolling;
 
     public bool deathState;
 
@@ -19,7 +20,7 @@ public class Stats : MonoBehaviour
 
     AudioManager audioManager;
     public string nameForAudio;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +31,7 @@ public class Stats : MonoBehaviour
         dmg = dmgMax;
         moveSpeed = moveSpeedMax;
 
+        audioManager.playAudio("StartMusic");
     }
 
     // Update is called once per frame
@@ -37,16 +39,18 @@ public class Stats : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X))
         {
-            DamageHealth(1);
+            DamageHealth(50);
+            Debug.Log(health);
         }
 
     }
 
     private void CheckDeath()
     {
-        if(health <= 0)
+        if (health <= 0)
         {
             audioManager.playAudio("Death"+ nameForAudio);
+            Debug.Log("Test");
             deathState = true;
             Destroy(this.gameObject);
         }
@@ -57,6 +61,11 @@ public class Stats : MonoBehaviour
         health -= damage;
         CheckDeath();
         StartCoroutine(flashColor());
+    }
+
+    public void UpdateMoveSpeed(float ms)
+    {
+        moveSpeed = ms;
     }
 
     IEnumerator flashColor()

@@ -7,12 +7,10 @@ public class PlayerAnimations : MonoBehaviour
 
     AudioManager audioManager;
 
-    public float moveSpeed;
-    public float moveSpeedCurrent;
-    public float moveSpeedRolling;
     private Vector2 moveInput;
     public Animator anim;
-    public int health;
+    public Stats stats;
+
 
     // Start is called before the first frame update
     void Start()
@@ -20,23 +18,14 @@ public class PlayerAnimations : MonoBehaviour
         //Get the Global Audio Manager to Use for Audio
         audioManager = FindObjectOfType<AudioManager>();
 
-
-        moveSpeed = GameObject.Find("Player").GetComponent<PlayerController>().moveSpeed;
-        moveSpeedCurrent = moveSpeed;
-        moveSpeedRolling = moveSpeed * 2f;
-        health = GameObject.Find("Player").GetComponent<PlayerController>().health;
-        Debug.Log(health);
+        stats = GetComponentInParent<Stats>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Set the Global Audio Manager
-
-
         moveInput = GameObject.Find("Player").GetComponent<PlayerController>().moveInput;
-        //health = GameObject.Find("Player").GetComponent<PlayerController>().health;
 
         //-----ANIMATOR-----//
 
@@ -91,39 +80,20 @@ public class PlayerAnimations : MonoBehaviour
             anim.SetBool("isRolling", false);
         }
 
-        // While the rolling animation is playing, set moveSpeedCurrent to moveSpeedRollingbe
+        // While the rolling animation is playing, set moveSpeedCurrent to moveSpeedRolling
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_roll"))
         {
-            GameObject.Find("Player").GetComponent<PlayerController>().setMoveSpeedCurrent(moveSpeedRolling);
+            stats.UpdateMoveSpeed(stats.moveSpeedRolling);
         }
         else
         {
-            GameObject.Find("Player").GetComponent<PlayerController>().setMoveSpeedCurrent(moveSpeed);
+            stats.UpdateMoveSpeed(stats.moveSpeedMax);
         }
 
-        // Player Dead Animation: Check if Player's health <= 0
-        if(health <= 0)
-        {
-            anim.SetBool("isPlayerDead", true);
-            Debug.Log("Player died");
-        }
-
-        // Damage Player Health
-        if(Input.GetMouseButtonDown(2))
-        {
-            health -= 50;
-            Debug.Log(health);
-        }
-
-
-        //*****BOX COLIDERS****//
-
-        //Sword Slash
+        //Sword Slash Collison
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_attack"))
         {
-            // Enable the Collider
             GameObject.Find("Sword Slash Collider").GetComponent<CircleCollider2D>().enabled = true;
-            
         }
         else
         {
@@ -132,10 +102,7 @@ public class PlayerAnimations : MonoBehaviour
 
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_roll_attack"))
         {
-            // Enable the Collider
             GameObject.Find("Roll Attack Collider").GetComponent<CircleCollider2D>().enabled = true;
-            Debug.Log("Roll Atack HIT");
-
         }
         else
         {
