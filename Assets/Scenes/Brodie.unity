@@ -6584,10 +6584,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 79616034, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 254335108237913704, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.92786515
@@ -6635,6 +6631,10 @@ PrefabInstance:
     - target: {fileID: 254335108237913710, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
       propertyPath: m_Name
       value: Manager - Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 630081366818693671, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
+      propertyPath: m_Name
+      value: PlayerHit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
@@ -6727,6 +6727,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2595445669858529405, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: attackRange
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050999400092946345, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: dmgMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050999400181864308, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: dmgMax
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050999400844573451, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: dmgMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050999401370415360, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: dmgMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050999401391454000, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: dmgMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050999401738708767, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: dmgMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559916308947503059, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: axe
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6559916310404296213, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
       propertyPath: m_Name
       value: Loops

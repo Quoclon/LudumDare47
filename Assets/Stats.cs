@@ -75,6 +75,8 @@ public class Stats : MonoBehaviour
         health -= damage;
         if (gameObject.tag == "Player")
         {
+            audioManager.playAudio("PlayerHit");
+            StartCoroutine(flashColor());
             CheckDeath();
         }
         else if(gameObject.name == "Skeleton")
