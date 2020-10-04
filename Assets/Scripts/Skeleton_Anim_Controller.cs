@@ -50,7 +50,7 @@ public class Skeleton_Anim_Controller : MonoBehaviour
 
         if (stats.deathState)
         {
-            anim.SetBool("death", true);
+            //anim.SetBool("dying", true);
         }
 
     }

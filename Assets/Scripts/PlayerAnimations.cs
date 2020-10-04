@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerAnimations : MonoBehaviour
 {
-    
+
+    AudioManager audioManager;
+
     public float moveSpeed;
     public float moveSpeedCurrent;
     public float moveSpeedRolling;
@@ -15,6 +17,10 @@ public class PlayerAnimations : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Get the Global Audio Manager to Use for Audio
+        audioManager = FindObjectOfType<AudioManager>();
+
+
         moveSpeed = GameObject.Find("Player").GetComponent<PlayerController>().moveSpeed;
         moveSpeedCurrent = moveSpeed;
         moveSpeedRolling = moveSpeed * 2f;
@@ -26,6 +32,9 @@ public class PlayerAnimations : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Set the Global Audio Manager
+
+
         moveInput = GameObject.Find("Player").GetComponent<PlayerController>().moveInput;
         //health = GameObject.Find("Player").GetComponent<PlayerController>().health;
 
@@ -48,10 +57,12 @@ public class PlayerAnimations : MonoBehaviour
             if (anim.GetCurrentAnimatorStateInfo(0).IsName("anim_hero_roll"))
             {
                 // Allow the Player to do a rolling attack
+
                 anim.SetBool("canRollAttack", true);
             }
             else
             {
+                audioManager.playAudio("SlashBasic");
                 // Allow the Player to do a slash attack
                 anim.SetBool("swordSlice", true);
             }

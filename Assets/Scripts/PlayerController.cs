@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
     // Player Movement Variables
     public float moveSpeed;
     public float moveSpeedCurrent;
