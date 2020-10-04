@@ -4353,10 +4353,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 79616034, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 254335108237913704, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.92786515
@@ -4404,6 +4400,18 @@ PrefabInstance:
     - target: {fileID: 254335108237913710, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
       propertyPath: m_Name
       value: Manager - Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274993651710542333, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274993651710542333, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 98fd60a546da08442a2cd880a98c148c, type: 3}
+    - target: {fileID: 8610422123009605796, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
+      propertyPath: m_Name
+      value: Roll
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4cc65b729ddcd4bbd573f1af0d6648, type: 3}
@@ -6723,6 +6731,18 @@ PrefabInstance:
     - target: {fileID: 6095156978070008113, guid: 6d4b4cad691a1ff4fbe2e297b5f2ca4f, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6095156978070008113, guid: 6d4b4cad691a1ff4fbe2e297b5f2ca4f, type: 3}
+      propertyPath: m_Radius
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6095156978070008116, guid: 6d4b4cad691a1ff4fbe2e297b5f2ca4f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 6095156978070008116, guid: 6d4b4cad691a1ff4fbe2e297b5f2ca4f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d4b4cad691a1ff4fbe2e297b5f2ca4f, type: 3}
