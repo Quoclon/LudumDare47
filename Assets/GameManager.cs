@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public int sceneNumToLoad;
+    public string sceneToLoad;
     public int sceneNum;
     public int NumberOfEnemiesLeft;
   
@@ -25,6 +27,14 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(sceneToLoad == "Blake")
+        {
+            sceneNumToLoad = 1;
+        }
+        else
+        {
+            sceneNumToLoad = 0;
+        }
         LoadLoop();
     }
 
@@ -59,7 +69,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator loadScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(sceneNumToLoad);
         yield return new WaitForSeconds(1f);
         LoadLoop();
     }
