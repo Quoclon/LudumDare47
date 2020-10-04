@@ -16,6 +16,7 @@ public class NPCCollision : MonoBehaviour
             {
                 if (GetComponentInParent<Stats>().hitEnemy == false)
                 {
+                    //if(other.GetComponentInChildren<Animator>().GetBool)
                     other.GetComponent<Stats>().DamageHealth(GetComponentInParent<Stats>().dmgMax);
                     GetComponentInParent<Stats>().hitEnemy = true;
                     StartCoroutine(resetHit());
