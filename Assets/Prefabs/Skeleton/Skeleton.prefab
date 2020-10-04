@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 9155080498177624210}
   - component: {fileID: 3500694565178088078}
   - component: {fileID: 8169198680176365467}
+  - component: {fileID: 1901993788}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: Enemy
@@ -102,6 +103,10 @@ MonoBehaviour:
   attackTimer: 3
   attackTimerCurrent: 0
   attacking: 0
+  attackRange: 1.5
+  aggroRange: 4
+  chasing: 0
+  chaseDirection: {x: 0, y: 0, z: 0}
 --- !u!114 &3500694565178088078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,9 +134,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5764fe6c8d8f38c4cb8e57b121f518df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthMax: 1
+  healthMax: 30
   health: 0
-  dmgMax: 0
+  dmgMax: 50
   dmg: 0
   energyMax: 0
   energy: 0
@@ -141,6 +146,20 @@ MonoBehaviour:
   deathState: 0
   hitEnemy: 0
   nameForAudio: Skeleton
+--- !u!114 &1901993788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9155080498177624208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d456d245c98b64da658eb23a86bdc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDelay: 1
+  axe: 0
 --- !u!1 &9155080499353837436
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,6 +172,8 @@ GameObject:
   - component: {fileID: 9155080499353837438}
   - component: {fileID: 9155080499353837439}
   - component: {fileID: 9155080497873373682}
+  - component: {fileID: 1786256596}
+  - component: {fileID: 1786256597}
   m_Layer: 0
   m_Name: Skeleton Model
   m_TagString: Enemy
@@ -256,3 +277,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e576a91fa382342bdcdc580a53c194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &1786256596
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9155080499353837436}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.22
+--- !u!114 &1786256597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9155080499353837436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d456d245c98b64da658eb23a86bdc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDelay: 1
+  axe: 1
