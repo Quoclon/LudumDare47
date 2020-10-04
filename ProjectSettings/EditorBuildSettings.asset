@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Brodie OLD.unity
-    guid: 0cc741a8a4b99d943ba5d8b8fa17fb1c
+    path: Assets/Scenes/Brodie.unity
+    guid: 732cae9a81fcb65498b3e29a5faeece3
   m_configObjects: {}

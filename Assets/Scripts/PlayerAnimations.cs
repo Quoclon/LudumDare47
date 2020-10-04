@@ -20,21 +20,15 @@ public class PlayerAnimations : MonoBehaviour
         //Get the Global Audio Manager to Use for Audio
         audioManager = FindObjectOfType<AudioManager>();
 
-
         moveSpeed = GameObject.Find("Player").GetComponent<PlayerController>().moveSpeed;
         moveSpeedCurrent = moveSpeed;
         moveSpeedRolling = moveSpeed * 2f;
         health = GameObject.Find("Player").GetComponent<PlayerController>().health;
-        Debug.Log(health);
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Set the Global Audio Manager
-
-
         moveInput = GameObject.Find("Player").GetComponent<PlayerController>().moveInput;
         //health = GameObject.Find("Player").GetComponent<PlayerController>().health;
 
