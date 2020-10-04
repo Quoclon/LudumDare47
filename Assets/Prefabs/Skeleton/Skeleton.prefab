@@ -103,7 +103,7 @@ MonoBehaviour:
   attackTimer: 3
   attackTimerCurrent: 0
   attacking: 0
-  attackRange: 1.5
+  attackRange: 1.75
   aggroRange: 4
   chasing: 0
   chaseDirection: {x: 0, y: 0, z: 0}
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDelay: 1
   axe: 0
+  fireBall: 0
 --- !u!1 &9155080499353837436
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,3 +308,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDelay: 1
   axe: 1
+  fireBall: 0

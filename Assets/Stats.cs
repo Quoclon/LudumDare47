@@ -79,7 +79,7 @@ public class Stats : MonoBehaviour
             StartCoroutine(flashColor());
             CheckDeath();
         }
-        else if(gameObject.name == "Skeleton")
+        else if(gameObject.tag == "Enemy")
         {
             audioManager.playAudio("SkeletonHit");
             StartCoroutine(flashColor());

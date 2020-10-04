@@ -5051,13 +5051,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6095156976543551852, guid: 6d4b4cad691a1ff4fbe2e297b5f2ca4f, type: 3}
-      propertyPath: dmgMax
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 6095156976543551853, guid: 6d4b4cad691a1ff4fbe2e297b5f2ca4f, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6095156977917682004, guid: 6d4b4cad691a1ff4fbe2e297b5f2ca4f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6095156978070008113, guid: 6d4b4cad691a1ff4fbe2e297b5f2ca4f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d4b4cad691a1ff4fbe2e297b5f2ca4f, type: 3}
@@ -6727,9 +6731,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2595445668373756928, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595445668904941067, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595445668917456955, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595445669858529404, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595445669858529404, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 2595445669858529405, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
       propertyPath: attackRange
-      value: 1.25
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595445669858529407, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3050999400092946345, guid: fa7afe358cea6e543b4b7db9204c1e55, type: 3}
       propertyPath: dmgMax

@@ -79,16 +79,20 @@ public class Skeleton_Controller : MonoBehaviour
         if (Vector3.Distance(transform.position, player.transform.position) < attackRange)
         {
             attacking = true;
-            float direction = player.transform.position.x - transform.position.x;
-            if(direction > 0)
+            if(!GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Anim_Skeleton_Attack"))
             {
-                direction = 1;
+                float direction = player.transform.position.x - transform.position.x;
+                if (direction > 0)
+                {
+                    direction = 1;
+                }
+                else
+                {
+                    direction = -1;
+                }
+                transform.localScale = new Vector3(direction, transform.localScale.y, 0);
             }
-            else
-            {
-                direction = -1;
-            }
-            transform.localScale = new Vector3(direction, transform.localScale.y, 0);
+            
         }
         else
         {
